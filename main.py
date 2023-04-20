@@ -7,7 +7,7 @@ from selenium.common.exceptions import NoSuchElementException
 options = webdriver.ChromeOptions()
 options.add_experimental_option("detach", True)
 
-chrome_drive_path = r" D:\chromedriver_win32\chromedriver.exe "
+chrome_drive_path = your chromedrivr path
 ser = Service(chrome_drive_path)
 driver = webdriver.Chrome(service=ser, options=options)
 driver.get("https://www.linkedin.com/jobs/search/?currentJobId=3533239256&geoId=106187582&keywords=web%20devlopment&location=Delhi%2C%20India&refresh=true")
